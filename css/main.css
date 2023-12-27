@@ -64,7 +64,7 @@ ul{
     color: #333333;
 }
 .logo{
-  font-size: 2rem;
+    font-size: 2rem;
     color: rgb(0, 255, 255);
     font-weight: 700;
     width: 150px;
@@ -74,7 +74,9 @@ ul{
     justify-content: center;
     align-items: center;
     transition: all ease 0.3s;
-
+}
+.logo :hover{
+    transform: scale(1.05);
 }
 .logo i{
     color: gold;
@@ -211,13 +213,13 @@ footer{
     padding: 15px;
     align-items: center;
     font-size: 1rem;
-    color: #3b3b3b;
+    color: #000000;
     font-weight: 400;
     letter-spacing: 1px;
-    background-color: #ececec48;
+    background-color: rgba(236, 236, 236, 0.384);
     width: 100%;
 }
-/* @media (max-wigth:751px) {
+@media (max-wigth:751px) {
     .main-content{
         flex-direction: column-reverse;
     }
@@ -240,4 +242,16 @@ footer{
         left: 0px;
 
     }
-} */
+}
+.egypt{
+    display: flex;
+    justify-content: center;
+    background-color: #3333332d;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+  }
+  
+  .egypt img {
+    padding: 50px;
+  }
