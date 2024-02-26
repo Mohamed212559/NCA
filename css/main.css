@@ -171,6 +171,7 @@ ul{
   @media (min-width: 1200px) {
     .container {
       width: 1170px;
+        }
 /*footer*/
 footer{
     display: flex;
