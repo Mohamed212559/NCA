@@ -219,23 +219,6 @@ footer{
     background-color: rgba(236, 236, 236, 0.384);
     width: 100%;
 }
-@media (max-wigth:751px) {
-    .main-content{
-        flex-direction: column-reverse;
-    }
-    .main-text{
-        width: 100%;
-        max-width: 100%;
-        margin-top: 50px;
-    }
-}
-@media (max-width:751px) {
-    .navigation{
-        justify-content: space-between;
-        padding: 20px;
-        width: 100%;
-        position: relative;
-    }
     .navigation .menu{
         display: block;
         position: absolute;
